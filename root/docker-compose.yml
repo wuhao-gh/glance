@@ -1,5 +1,6 @@
 services:
   glance:
+    container_name: glance
     image: glanceapp/glance
     volumes:
       - ./config:/app/config
