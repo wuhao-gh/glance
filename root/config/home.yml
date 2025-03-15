@@ -33,8 +33,6 @@
             - UCapPWG_ppEuYvelriReTcOA # erye
             - UCYPT3wl0MgbOz63ho166KOw # xiaodao
 
-    - size: full
-      widgets:
         - type: docker-containers
           hide-by-default: false
 
@@ -47,8 +45,6 @@
           # Optionally hide the location from being displayed in the widget
           # hide-location: true
 
-    - size: small
-      widgets:
         - type: monitor
           cache: 1m
           title: Services
@@ -64,8 +60,6 @@
             - title: VPN
               url: https://v.wuhao.dev
 
-    - size: small
-      widgets:
         - type: server-stats
           servers:
             - type: local
