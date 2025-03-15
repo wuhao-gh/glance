@@ -6,6 +6,24 @@
       widgets:
         - type: calendar
           first-day-of-week: monday
+        - type: monitor
+          cache: 1m
+          title: Services
+          sites:
+            - title: Dokploy
+              url: https://deploy.wuhao.dev
+            - title: Reference
+              url: https://ref.wuhao.dev
+            - title: Toolhub
+              url: https://tool.wuhao.dev
+            - title: Umami
+              url: https://umami.wuhao.dev/dashboard
+            - title: VPN
+              url: https://v.wuhao.dev
+        - type: server-stats
+          servers:
+            - type: local
+              name: Services
 
     - size: full
       widgets:
@@ -21,12 +39,6 @@
             - url: https://www.piglei.com/feeds/latest/
             - url: https://innei.in/feed
             - url: https://springwood.me/feed/
-        - type: videos
-          channels:
-            - UCilwQlk62k1z7aUEZPOB6yw # xiaolinshuo
-            - UCjuNibFJ21MiSNpu8LZyV4w # chaijing
-            - UCapPWG_ppEuYvelriReTcOA # erye
-            - UCYPT3wl0MgbOz63ho166KOw # xiaodao
 
     - size: small
       widgets:
@@ -36,23 +48,10 @@
           hour-format: 24h # alternatively "24h"
           # Optionally hide the location from being displayed in the widget
           # hide-location: true
-
-        - type: monitor
-          cache: 1m
-          title: Services
-          sites:
-            - title: Dokploy
-              url: https://deploy.wuhao.dev
-            - title: Reference
-              url: https://ref.wuhao.dev
-            - title: Toolhub
-              url: https://tool.wuhao.dev
-            - title: Umami
-              url: https://umami.wuhao.dev
-            - title: VPN
-              url: https://v.wuhao.dev
-
-        - type: server-stats
-          servers:
-            - type: local
-              name: Services
+        - type: videos
+          style: vertical-list
+          channels:
+            - UCilwQlk62k1z7aUEZPOB6yw # xiaolinshuo
+            - UCjuNibFJ21MiSNpu8LZyV4w # chaijing
+            - UCapPWG_ppEuYvelriReTcOA # erye
+            - UCYPT3wl0MgbOz63ho166KOw # xiaodao
