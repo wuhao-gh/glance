@@ -7,10 +7,13 @@
         - type: calendar
           first-day-of-week: monday
 
+    - size: full
+      widgets:
         - type: rss
           limit: 10
           collapse-after: 5
           cache: 12h
+          style: detailed-list
           feeds:
             - url: https://antfu.me/feed.xml
             - url: https://feeds.feedburner.com/ruanyifeng
@@ -18,23 +21,12 @@
             - url: https://www.piglei.com/feeds/latest/
             - url: https://innei.in/feed
             - url: https://springwood.me/feed/
-
-    - size: full
-      widgets:
-        - type: group
-          widgets:
-            - type: hacker-news
-            - type: lobsters
-
         - type: videos
           channels:
             - UCilwQlk62k1z7aUEZPOB6yw # xiaolinshuo
             - UCjuNibFJ21MiSNpu8LZyV4w # chaijing
             - UCapPWG_ppEuYvelriReTcOA # erye
             - UCYPT3wl0MgbOz63ho166KOw # xiaodao
-
-        - type: docker-containers
-          hide-by-default: false
 
     - size: small
       widgets:
@@ -55,7 +47,7 @@
               url: https://ref.wuhao.dev
             - title: Toolhub
               url: https://tool.wuhao.dev
-            - title: Unami
+            - title: Umami
               url: https://umami.wuhao.dev
             - title: VPN
               url: https://v.wuhao.dev
