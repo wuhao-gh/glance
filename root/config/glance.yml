@@ -1,3 +1,11 @@
+auth:
+  secret-key: # this must be set to a random value generated using the secret:make CLI command
+  users:
+    admin:
+      password: wuhao888
+    wuhao:
+      password: wuhao666
+
 server:
   assets-path: /app/assets
 
