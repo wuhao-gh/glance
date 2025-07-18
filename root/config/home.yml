@@ -6,6 +6,11 @@
       widgets:
         - type: calendar
           first-day-of-week: monday
+        - type: to-do
+        - type: server-stats
+          servers:
+            - type: local
+              name: Services
         - type: monitor
           cache: 1m
           title: Services
@@ -20,10 +25,6 @@
               url: https://umami.wuhao.dev/dashboard
             - title: VPN
               url: https://v.wuhao.dev
-        - type: server-stats
-          servers:
-            - type: local
-              name: Services
 
     - size: full
       widgets:
