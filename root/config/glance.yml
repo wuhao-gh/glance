@@ -1,5 +1,5 @@
 auth:
-  secret-key: # this must be set to a random value generated using the secret:make CLI command
+  secret-key: XnAjQANMEdxX0v6UZE03NWAUOD6REZr8Gvc7iKmQnvdoSd1Y+G9VXju5lwXqGcOvdVClRZWBGEYJM2N8/W5NhQ==
   users:
     admin:
       password: wuhao888
